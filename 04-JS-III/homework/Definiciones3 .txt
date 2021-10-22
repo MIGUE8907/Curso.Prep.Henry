@@ -1,0 +1,4 @@
+
+
+ARRAYS : Son contenedores de datos para colecciones de datos. donde podemos guradar cualquieer 
+tipo de valor mediante una variable.

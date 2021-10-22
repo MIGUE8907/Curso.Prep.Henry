@@ -1,0 +1,13 @@
+
+
+
+Definiciones2
+
+* `for 
+Se usa para iterar por cada elemento, aunmentando tantas veces el valor como necesitemos. 
+* `&&`,
+Se cumple si los dos valores son verdaderos 
+ `||`, 
+ Se cumple y uno  o dos de los valores son verdaderos,
+ `!`
+ Cambia a true como false y viceversa cualquier valor que deseemos

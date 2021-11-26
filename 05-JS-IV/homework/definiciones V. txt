@@ -1,0 +1,27 @@
+
+
+Objetos:
+
+Los objetos son cotenedores en los que se pueden guardar 
+informacion de too tipo con la ventaja del par clave/valor 
+util para ser llamados con el nmbre (clave) para acceder al (valor)
+
+Propiedades:
+
+par clave valor 
+
+Métodos:
+
+Son funciones instanciadas dentro del objeto.
+
+Bucle for…in:
+
+Este bucle iterara sobre arrays o matrices hasta encontrar lo que buscamos.
+
+Notación de puntos vs notación de corchetes:
+
+(.) dot-Notation. Facilidad de escribir, Literal
+([]) Bracket Notation Mas facilidad de recorrer un objeto. 
+
+
+

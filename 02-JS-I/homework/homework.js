@@ -71,19 +71,25 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  return str1.length === str2.length
+  //return str1.length === str2.length
+  if(str1.length === str2.length) {
+    return true;
+  } else{
+    return false;
+  }
 }
 
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(num < 90) {
-    return true;
-  } else {
-    return false;
-  }
-}
+  //if(num < 90) {
+   // return true;
+  //} else {
+    //return false;
+  //}
+  return num < 90;
+} 
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
@@ -102,11 +108,12 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 === 0) {
-    return true;
-  } else{
-    return false;
-  }
+  //if (num % 2 === 0) {
+  //  return true;
+  //} else{
+  //  return false;
+  //}
+  return num % 2 === 0
 }
 
 function esImpar(num) {
@@ -197,21 +204,24 @@ function obtenerSaludo(nombre) {
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  return alto * ancho;
+var areaRectangulo = (alto * ancho);
+return areaRectangulo;
 }
 
 
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
- return lado * 4
+ var perimetro = (lado * 4);
+ return perimetro;
 }
 
 
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
- return (base * altura) / 2
+var adut = ((base * altura) / 2)
+ return adut;
 }
 
 

@@ -14,7 +14,7 @@ function crearGato(nombre, edad) {
     }
   }
   return obj;
-}
+}   
 
 function agregarPropiedad(objeto, property) {
   // Agrega una propiedad al objeto (argumento "objeto") con el valor `null`
@@ -38,6 +38,7 @@ function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
   // "objetoMisterioso" tiene una propiedad llamada "numeroMisterioso"
   // Multiplica el numeroMisterioso por 5 y devuelve el producto
   // Tu código:
+  
  
 return objetoMisterioso.numeroMisterioso * 5;
 }

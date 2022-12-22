@@ -74,7 +74,7 @@ function arrayContiene(array, elemento) {
     if(array[i] === elemento) {
       return true 
     }
-  }
+    }
   return false
 }
 
@@ -225,7 +225,7 @@ function breakStatement(numero) {
   suma = suma +2;
    if(suma === i) break;
   
-    else {
+    else 
       array.push (suma);
     }
   }
